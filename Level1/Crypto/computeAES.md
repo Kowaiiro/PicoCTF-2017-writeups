@@ -13,6 +13,8 @@ Encrypted with AES in ECB mode. All values base64 encoded
 ciphertext = V3Vqirostg6qW26sle5mnyrwEYSrteN6oHkilO50e9dFkN+0JhC3yu0LcQNw/hXU
 key = r7y1dhmTvjQrcra7A1UQFw==
 
+## Start it!
+
 take a look that the value is on base64 encode. 
 
 1. before that, convert those base64 to hex.
