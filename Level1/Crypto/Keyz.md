@@ -1,6 +1,8 @@
+# KEYZ
+
 This is interesting
 
-Tutorial on using shell:
+## Tutorial on using shell:
 
 Take a look on the shell on the right, connect to it.
 You'll see 
@@ -25,7 +27,7 @@ to enter a, type
 ```
 you've entered the "a" directory.
 
-Back to the problem, we see the description.
+## Back to the problem, we see the description.
 
 While webshells are nice, it'd be nice to be able to login directly. 
 To do so, please add your own public key to ~/.ssh/authorized_keys, using the webshell. 
@@ -38,7 +40,7 @@ This one covers key generation: https://confluence.atlassian.com/bitbucketserver
 
 Then, use the web shell to copy/paste it, and use the appropriate tool to ssh to the server using your key
 
-Alright, the first hint will be useful in case you forgot or didn't know how to use the public key or register a new one.
+## Alright, the first hint will be useful in case you forgot or didn't know how to use the public key or register a new one.
 
 1. Open your own terminal, in this case for ease, I use linux terminal. Type cd .ssh, if there's one. okay wait
 2. if there isn't one there (and I think so), then make a new one. type:
