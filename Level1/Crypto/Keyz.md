@@ -47,20 +47,21 @@ Alright, the first hint will be useful in case you forgot or didn't know how to 
     cd .ssh
 ```    
 3. then, as instructed in the link embedded on hints, to register a new one, type:
-```
-    ssh-keygen -t rsa -C "your_email@example.com"
-```    
-    enter the directory, if left blank, it will use the default one.
-    enter the password, if left blank, it will use the default one without password.
-    take a look on where your identification and public key saved, defaultly in "/home/username/.ssh/" if you type the command when entering those directory
+
+ `ssh-keygen -t rsa -C "your_email@example.com" `
+
+then, 
+enter the directory, if left blank, it will use the default one.
+enter the password, if left blank, it will use the default one without password.
+take a look on where your identification and public key saved, defaultly in "/home/username/.ssh/" if you type the command when entering those directory
     then there is a random character, just take a look.
     then type:
-```    
+    ```
     ls
-```    
+    ```
     to check that there are:
- ```   
-    id_rsa      id_rsa.pub
- ```   
+    ```
+    id_rsa      id_rsa.pub  ```
+    
 4. There is id_rsa.pub, which is your public key. To view the content of the id_rsa.pub, just open in gedit, or nano, or cat it directly. I prefer cat.
   
