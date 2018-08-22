@@ -1,3 +1,5 @@
+# Hash 101
+
 ## welcome to the real world of cryptography. this is my favourite part.
 
 see the description:
