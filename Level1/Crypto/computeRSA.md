@@ -1,4 +1,4 @@
-just simple math, 
+# just simple math, 
 
 the formula of RSA key:
 
