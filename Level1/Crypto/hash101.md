@@ -1,4 +1,4 @@
-welcome to the real world of cryptography. this is my favourite part.
+## welcome to the real world of cryptography. this is my favourite part.
 
 see the description:
 
@@ -12,9 +12,9 @@ All concepts required to complete this challenge, including simple modular math,
 
 Okay, you're asked to connect to the service. I tried connecting from the browser and it's failed, so I tried to connect via terminal.
 1. just type on your desktop terminal:
-
+```
 nc shell2017.picoctf.com 63004
-
+```
 nc stands for netcat, which is showing the contain of the net. 
 the format for nc:
      nc [-46bCDdhklnrStUuvZz] [-I length] [-i interval] [-O length] [-P proxy_username]
@@ -23,7 +23,7 @@ the format for nc:
 just type above
 
 2. okay, there're some text. and it's our challenges
-
+```
 Welcome to Hashes 101!
 
 There are 4 Levels. Complete all and receive a prize!
@@ -35,7 +35,7 @@ All text can be represented by numbers. To see how different letters translate t
 TO UNLOCK NEXT LEVEL, give me the ASCII representation of 0111000001101100011000010110100101100100
 
 >
-
+``` 
 3. just search for binary to ASCII converter in google, or maybe use python (I use the later, but it'll be easier for me to explain  and you to use the first, okay), beware, use the different terminal to open python.
   never use crl+c to copy, it will stop your process.
 4. you got the flag, plaid (from 0111000001101100011000010110100101100100), another binary could be different, I try this problem 3 times and the binary appeared are different
