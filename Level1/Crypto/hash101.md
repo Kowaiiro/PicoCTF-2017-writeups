@@ -41,23 +41,24 @@ TO UNLOCK NEXT LEVEL, give me the ASCII representation of 0111000001101100011000
 4. you got the flag, plaid (from 0111000001101100011000010110100101100100), another binary could be different, I try this problem 3 times and the binary appeared are different
 
 5. then jump to level 2
+```
 ------ LEVEL 2: Numbers can be base ANYTHING -----
 Numbers can be represented many ways. A popular way to represent computer data is in base 16 or 'hex' since it lines up with bytes very well (2 hex characters = 8 binary bits). Other formats include base64, binary, and just regular base10 (decimal)! In a way, that ascii chart represents a system where all text can be seen as "base128" (not including the Extended ASCII codes)
 
 TO UNLOCK NEXT LEVEL, give me the text you just decoded, plaid, as its hex equivalent, and then the decimal equivalent of that hex number ("foo" -> 666f6f -> 6713199)
 
 hex>
-
+```
 6. just search for the hexadecimal converter, you got it decoded 706c616964. just enter it
 7. then you're asked the decimal. convert it to decimal. 482854660452
 
 8. good, then proceed to the next level. 
-
+```
 ----------- LEVEL 3: Hashing Function ------------
 A Hashing Function intakes any data of any size and irreversibly transforms it to a fixed length number. For example, a simple Hashing Function could be to add up the sum of all the values of all the bytes in the data and get the remainder after dividing by 16 (modulus 16)
 
 TO UNLOCK NEXT LEVEL, give me a string that will result in a 12 after being transformed with the mentioned example hashing function
-
+```
 
 9. okay, I will explain the hashing function. this is my research at college, and it's fun. Hashing function is somewhat a character represent a value, and if the value summed up, and divided by an integer, resulted in remainder, but in reverse, we know the remainder and search for the possible character (represent value). 
 
@@ -80,7 +81,7 @@ m = 109
 summed all, got 311. alright proceed to the next level
 
 11. there's the real hash. the description simply explain it. 
-
+```
 --------------- LEVEL 4: Real Hash ---------------
 A real Hashing Function is used for many things. This can include checking to ensure a file has not been changed (its hash value would change if any part of it is changed). An important use of hashes is for storing passwords because a Hashing Function cannot be reversed to find the initial data. Therefore if someone steals the hashes, they must try many different inputs to see if they can "crack" it to find what password yields the same hash. Normally, this is too much work (if the password is long enough). But many times, people's passwords are easy to guess... Brute forcing this hash yourself is not a good idea, but there is a strong possibility that, if the password is weak, this hash has been cracked by someone before. Try looking for websites that have stored already cracked hashes.
 
@@ -89,7 +90,7 @@ TO CLAIM YOUR PRIZE, give me the string password that will result in this MD5 ha
 
 
 I use the md5 crack website, i found it there: https://crackstation.net/
-
+```
 (forgive my weakness)
 
 you got it resulted in "m4rch" 
