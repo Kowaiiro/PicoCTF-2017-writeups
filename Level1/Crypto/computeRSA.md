@@ -1,4 +1,4 @@
-# just simple math, 
+# ComputeRSA 
 
 the formula of RSA key:
 
