@@ -9,8 +9,9 @@ Look at using the netcat (nc) command!
 To figure out how to use it, you can run "man nc" or "nc -h" on the shell, or search for it on the interwebz
 
 This is the tutorial how to accessing something on server using terminal, so just type:
-```
-  nc -h```
+`
+  nc -h`
+  
 It means look for help in using this command. For me (maybe different for others but the command still the same)
 ```
 OpenBSD netcat (Debian patchlevel 1.105-7ubuntu1)
