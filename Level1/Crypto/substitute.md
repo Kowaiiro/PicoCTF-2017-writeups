@@ -1,3 +1,5 @@
+# Substitute
+
 almost easy, just encode that, as said, its only substitute a character with another character.
 read this one https://en.wikipedia.org/wiki/Substitution_cipher
 
