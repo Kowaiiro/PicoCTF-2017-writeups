@@ -1,3 +1,5 @@
+# Internet Kitties
+
 It said
 "I was told there was something at IP shell2017.picoctf.com with port 43099. How do I get there? Do I need a ship for the port?"
 
@@ -7,10 +9,10 @@ Look at using the netcat (nc) command!
 To figure out how to use it, you can run "man nc" or "nc -h" on the shell, or search for it on the interwebz
 
 This is the tutorial how to accessing something on server using terminal, so just type:
-
-  nc -h
+```
+  nc -h```
 It means look for help in using this command. For me (maybe different for others but the command still the same)
-
+```
 OpenBSD netcat (Debian patchlevel 1.105-7ubuntu1)
 This is nc from the netcat-openbsd package. An alternative nc is available
 in the netcat-traditional package.
@@ -51,13 +53,14 @@ usage: nc [-46bCDdhjklnrStUuvZz] [-I length] [-i interval] [-O length]
 		-Z		DCCP mode
 		-z		Zero-I/O mode [used for scanning]
 	Port numbers can be individual or ranges: lo-hi [inclusive]
-
+```
 In this case, just type:
-  
+  ```
    nc shell2017.picoctf.com 43099
-
+```
 Then appeared:
-
+```
   Yay! You made it!
   Take a flag!
   3f6cd68a982d8f0b72b04faf389e6a51
+```
